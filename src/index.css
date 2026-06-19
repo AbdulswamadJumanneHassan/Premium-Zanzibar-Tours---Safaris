@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-charcoal font-sans antialiased;
+    min-height: 100vh;
+  }
+
+  ::selection {
+    @apply bg-turquoise text-white;
+  }
+}
+
+@layer utilities {
+  .glass-backdrop {
+    backdrop-filter: blur(18px);
+  }
+}
