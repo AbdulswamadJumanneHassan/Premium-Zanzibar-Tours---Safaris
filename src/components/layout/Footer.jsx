@@ -49,7 +49,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Phone size={18} className="text-ocean" />
-                <a href="tel:+255123456789" className="transition hover:text-ocean">+255 123 456 789</a>
+                <a href="tel:+255773457365" className="transition hover:text-ocean">+255 773 457 365</a>
               </div>
             </div>
           </div>
