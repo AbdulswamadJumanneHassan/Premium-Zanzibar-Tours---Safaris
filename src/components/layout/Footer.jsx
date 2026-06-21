@@ -196,7 +196,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="mx-auto mt-12 max-w-7xl border-t border-slate-200/70 px-6 py-6 text-sm text-slate-500 sm:px-8">
+      <div className="mx-auto mt-12 max-w-7xl border-t border-slate-200/70 px-6 py-6 text-sm text-center text-slate-500 sm:px-8">
         <p>© 2026 Premium Zanzibar Tours & Safaris. All rights reserved.</p>
       </div>
     </footer>
