@@ -41,7 +41,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-charcoal">Our Office</h3>
-                    <p className="mt-1 text-gray-600">123 Kenyatta Road, Stone Town<br />Zanzibar City, Tanzania</p>
+                    <p className="mt-1 text-gray-600">Stone Town<br />Zanzibar City, Tanzania</p>
                   </div>
                 </div>
                 
