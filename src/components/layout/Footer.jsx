@@ -1,4 +1,4 @@
-import { MapPin, AtSign, Phone } from 'lucide-react';
+import { MapPin, Mail, Phone } from 'lucide-react';
 
 const InstagramIcon = ({ size = 20, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
@@ -65,7 +65,7 @@ export default function Footer() {
                 <span>Location: Stone Town, Zanzibar</span>
               </div>
               <div className="flex items-center gap-3">
-                <AtSign size={18} className="text-ocean" />
+                <Mail size={18} className="text-ocean" />
                 <span>Email: <a href="mailto:hello@premiumzanzibar.com" className="transition hover:text-ocean">hello@premiumzanzibar.com</a></span>
               </div>
               <div className="flex items-center gap-3">
