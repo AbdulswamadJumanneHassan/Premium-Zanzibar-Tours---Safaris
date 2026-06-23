@@ -33,10 +33,10 @@ export default function Navbar() {
 
         <nav className="hidden items-center gap-10 md:flex">
           {navItems.map(item => (
-            item === 'Contact' ? (
+            item === 'Contact' || item === 'Tours' ? (
               <Link
                 key={item}
-                to="/contact"
+                to={`/${item.toLowerCase()}`}
                 className="text-sm font-medium uppercase tracking-[0.2em] transition hover:text-gold"
               >
                 {item}
@@ -82,10 +82,10 @@ export default function Navbar() {
         >
           <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-6 sm:px-8">
             {navItems.map(item => (
-              item === 'Contact' ? (
+              item === 'Contact' || item === 'Tours' ? (
                 <Link
                   key={item}
-                  to="/contact"
+                  to={`/${item.toLowerCase()}`}
                   className="rounded-3xl px-4 py-3 text-sm font-semibold uppercase tracking-[0.2em] transition hover:bg-ocean/10"
                   onClick={() => setOpen(false)}
                 >

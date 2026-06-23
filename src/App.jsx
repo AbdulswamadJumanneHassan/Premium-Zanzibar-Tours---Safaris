@@ -6,6 +6,7 @@ import ScrollUpButton from './components/layout/ScrollUpButton.jsx';
 import WhatsAppButton from './components/layout/WhatsAppButton.jsx';
 import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
+import Tours from './pages/Tours.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/tours" element={<Tours />} />
         </Routes>
 
         <Footer />

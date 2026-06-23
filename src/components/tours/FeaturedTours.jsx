@@ -1,26 +1,27 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import TourCard from './TourCard.jsx';
 
 const tours = [
   {
-    title: 'Private Serengeti Flying Safari',
-    duration: '7 days • tailored itinerary',
-    price: '$12,500 / person',
-    summary: 'A luxurious air safari across the Serengeti with private game drives and intimate lodge stays.',
-    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
+    title: 'Safari Blue',
+    duration: 'Full day',
+    price: 'Contact for price',
+    summary: 'A full day of sailing, snorkeling, and seafood around Menai Bay.',
+    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80',
   },
   {
-    title: 'Luxury Ngorongoro Escape',
-    duration: '5 days • exclusive lodging',
-    price: '$9,800 / person',
-    summary: 'Discover dramatic calderas, private conservation areas, and elevated safari experiences.',
-    image: 'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1200&q=80',
+    title: 'Sunset Cruise',
+    duration: '2-3 hours',
+    price: 'Contact for price',
+    summary: 'Sail into the sunset on a traditional dhow with refreshments.',
+    image: 'https://images.unsplash.com/photo-1559827055-75704bb8421c?auto=format&fit=crop&w=1200&q=80',
   },
   {
-    title: 'Mnemba Island Private Retreat',
-    duration: '6 days • beachfront villa',
-    price: '$11,200 / person',
-    summary: 'Discrete island living with private diving, spa rituals, and turquoise ocean seclusion.',
+    title: 'Mnemba Island',
+    duration: 'Half day',
+    price: 'Contact for price',
+    summary: 'Snorkel in crystal clear waters around the famous Mnemba Atoll.',
     image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
   },
 ];
@@ -54,6 +55,15 @@ export default function FeaturedTours() {
           </motion.div>
         ))}
       </motion.div>
+
+      <div className="mt-12 flex justify-center">
+        <Link
+          to="/tours"
+          className="rounded-full border border-ocean bg-transparent px-8 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-ocean transition hover:bg-ocean hover:text-white"
+        >
+          View All Tours
+        </Link>
+      </div>
     </section>
   );
 }
