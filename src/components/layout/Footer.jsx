@@ -3,6 +3,7 @@ import {
   Phone,
   Mail,
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Instagram = ({ size = 20, className = "" }) => (
   <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
@@ -103,12 +104,21 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-slate-600">
               {links.map((link) => (
                 <li key={link}>
-                  <a
-                    href={`#${link.toLowerCase()}`}
-                    className="transition hover:text-ocean"
-                  >
-                    {link}
-                  </a>
+                  {['Contact', 'Tours', 'Safaris'].includes(link) ? (
+                    <Link
+                      to={`/${link.toLowerCase()}`}
+                      className="transition hover:text-ocean"
+                    >
+                      {link}
+                    </Link>
+                  ) : (
+                    <a
+                      href={`/#${link.toLowerCase()}`}
+                      className="transition hover:text-ocean"
+                    >
+                      {link}
+                    </a>
+                  )}
                 </li>
               ))}
             </ul>

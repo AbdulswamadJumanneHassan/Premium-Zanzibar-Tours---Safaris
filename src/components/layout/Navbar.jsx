@@ -33,7 +33,7 @@ export default function Navbar() {
 
         <nav className="hidden items-center gap-10 md:flex">
           {navItems.map(item => (
-            item === 'Contact' || item === 'Tours' ? (
+            item === 'Contact' || item === 'Tours' || item === 'Safaris' ? (
               <Link
                 key={item}
                 to={`/${item.toLowerCase()}`}
@@ -82,7 +82,7 @@ export default function Navbar() {
         >
           <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-6 sm:px-8">
             {navItems.map(item => (
-              item === 'Contact' || item === 'Tours' ? (
+              item === 'Contact' || item === 'Tours' || item === 'Safaris' ? (
                 <Link
                   key={item}
                   to={`/${item.toLowerCase()}`}

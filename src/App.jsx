@@ -7,6 +7,7 @@ import WhatsAppButton from './components/layout/WhatsAppButton.jsx';
 import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
 import Tours from './pages/Tours.jsx';
+import Safaris from './pages/Safaris.jsx';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/tours" element={<Tours />} />
+          <Route path="/safaris" element={<Safaris />} />
         </Routes>
 
         <Footer />
