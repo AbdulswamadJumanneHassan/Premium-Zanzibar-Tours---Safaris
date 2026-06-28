@@ -1,5 +1,14 @@
 import { motion } from 'framer-motion';
 import TourCard from '../components/tours/TourCard.jsx';
+import imgSerengeti from '../assets/serengeti.jfif';
+import imgCrater from '../assets/crater.jpeg';
+import imgTarangire from '../assets/tarangire.jpg';
+import imgManyara from '../assets/manyara.jpg';
+import imgKilimanjaro from '../assets/kilimanjaro.jpg';
+import imgGombe from '../assets/gombe.jpg';
+import imgMikumi from '../assets/mikumi.jpg';
+import imgRuaha from '../assets/ruaha.jpg';
+import imgArusha from '../assets/arusha.jpg';
 
 const allSafaris = [
   {
@@ -7,63 +16,63 @@ const allSafaris = [
     duration: '3-4 days',
     price: 'Contact for price',
     summary: 'Witness the Great Migration and vast plains of the Serengeti.',
-    image: 'https://images.unsplash.com/photo-1614531341773-3bff8b7cb3fc?auto=format&fit=crop&w=1200&q=80',
+    image: imgSerengeti,
   },
   {
     title: 'Ngorongoro Crater',
     duration: '1-2 days',
     price: 'Contact for price',
     summary: 'Explore the world\'s largest inactive volcanic caldera teeming with wildlife.',
-    image: 'https://images.unsplash.com/photo-1547471080-7cb2ac012b1a?auto=format&fit=crop&w=1200&q=80',
+    image: imgCrater,
   },
   {
     title: 'Tarangire National Park',
     duration: '1-2 days',
     price: 'Contact for price',
     summary: 'Known for its huge elephant herds and ancient baobab trees.',
-    image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80',
+    image: imgTarangire,
   },
   {
     title: 'Manyara National Park',
     duration: '1 day',
     price: 'Contact for price',
     summary: 'Famous for its tree-climbing lions and flamingo-covered lake.',
-    image: 'https://images.unsplash.com/photo-1600862590209-5a1e2a05d443?auto=format&fit=crop&w=1200&q=80',
+    image: imgManyara,
   },
   {
     title: 'Kilimanjaro National Park',
     duration: '6-8 days',
     price: 'Contact for price',
     summary: 'Conquer the highest peak in Africa and explore diverse ecosystems.',
-    image: 'https://images.unsplash.com/photo-1522199710521-72d69614c981?auto=format&fit=crop&w=1200&q=80',
+    image: imgKilimanjaro,
   },
   {
     title: 'Gombe National Park',
     duration: '2-3 days',
     price: 'Contact for price',
     summary: 'Trek through pristine forests to observe chimpanzees in the wild.',
-    image: 'https://images.unsplash.com/photo-1582570377823-39d09c62c2f4?auto=format&fit=crop&w=1200&q=80',
+    image: imgGombe,
   },
   {
     title: 'Mikumi National Park',
     duration: '1-2 days',
     price: 'Contact for price',
     summary: 'Accessible and abundant wildlife perfect for a quick safari getaway.',
-    image: 'https://images.unsplash.com/photo-1551817551-78703a19eb19?auto=format&fit=crop&w=1200&q=80',
+    image: imgMikumi,
   },
   {
     title: 'Ruaha National Park',
     duration: '3-4 days',
     price: 'Contact for price',
     summary: 'Tanzania\'s largest national park offering remote and wild safari experiences.',
-    image: 'https://images.unsplash.com/photo-1549479901-d14f446059d6?auto=format&fit=crop&w=1200&q=80',
+    image: imgRuaha,
   },
   {
     title: 'Arusha National Park',
     duration: '1 day',
     price: 'Contact for price',
     summary: 'A multifaceted jewel with a rich variety of landscapes and wildlife.',
-    image: 'https://images.unsplash.com/photo-1518182170546-076616fd6738?auto=format&fit=crop&w=1200&q=80',
+    image: imgArusha,
   },
 ];
 

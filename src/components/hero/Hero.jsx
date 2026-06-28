@@ -1,12 +1,13 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import BookingWidget from './BookingWidget.jsx';
+import heroBg from '../../assets/hero.png';
 
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(0,180,216,0.18),_transparent_35%),linear-gradient(180deg,_rgba(10,77,104,0.75),_rgba(15,23,42,0.7))]" />
-      <div className="absolute inset-0 bg-[url('src/assets/images/safari blue1.jpg')] bg-cover bg-center opacity-90" />
+      <div className="absolute inset-0 bg-cover bg-center opacity-90" style={{ backgroundImage: `url(${heroBg})` }} />
       <div className="absolute inset-0 bg-black/20" />
 
       <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-6 py-24 sm:px-8 lg:flex-row lg:items-center lg:justify-between">

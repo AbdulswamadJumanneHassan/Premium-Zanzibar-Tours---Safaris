@@ -1,12 +1,18 @@
 import { motion } from 'framer-motion';
+import imgG1 from '../../assets/safari blue.jpg';
+import imgG2 from '../../assets/nakupenda.jpg';
+import imgG3 from '../../assets/mnemba.jpg';
+import imgG4 from '../../assets/serengeti.jfif';
+import imgG5 from '../../assets/stone town.jpg';
+import imgG6 from '../../assets/sunset cruise.jpg';
 
 const images = [
-  'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1549880338-65ddcdfd017b?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80',
-  'https://images.unsplash.com/photo-1533688600048-74f1e37f81c6?auto=format&fit=crop&w=900&q=80',
+  imgG1,
+  imgG2,
+  imgG3,
+  imgG4,
+  imgG5,
+  imgG6,
 ];
 
 export default function Gallery() {

@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import TourCard from './TourCard.jsx';
+import imgSafariBlue from '../../assets/safari blue.jpg';
+import imgSunsetCruise from '../../assets/sunset cruise.jpg';
+import imgMnemba from '../../assets/mnemba.jpg';
 
 const tours = [
   {
@@ -8,21 +11,21 @@ const tours = [
     duration: 'Full day',
     price: 'Contact for price',
     summary: 'A full day of sailing, snorkeling, and seafood around Menai Bay.',
-    image: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=80',
+    image: imgSafariBlue,
   },
   {
     title: 'Sunset Cruise',
     duration: '2-3 hours',
     price: 'Contact for price',
     summary: 'Sail into the sunset on a traditional dhow with refreshments.',
-    image: 'https://images.unsplash.com/photo-1559827055-75704bb8421c?auto=format&fit=crop&w=1200&q=80',
+    image: imgSunsetCruise,
   },
   {
     title: 'Mnemba Island',
     duration: 'Half day',
     price: 'Contact for price',
     summary: 'Snorkel in crystal clear waters around the famous Mnemba Atoll.',
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
+    image: imgMnemba,
   },
 ];
 

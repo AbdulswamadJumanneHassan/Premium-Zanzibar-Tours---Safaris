@@ -1,42 +1,48 @@
 import { motion } from 'framer-motion';
 import DestinationCard from './DestinationCard.jsx';
+import imgZanzibar from '../../assets/nakupenda.jpg';
+import imgSerengeti from '../../assets/serengeti.jfif';
+import imgNgorongoro from '../../assets/crater.jpeg';
+import imgTarangire from '../../assets/tarangire.jpg';
+import imgNyerere from '../../assets/ruaha.jpg';
+import imgMnemba from '../../assets/mnemba.jpg';
 
 const destinations = [
   {
     name: 'Zanzibar',
     region: 'Island Sanctuary',
     description: 'White-sand shores, spice-laden culture, and luxurious oceanfront residences.',
-    image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80',
+    image: imgZanzibar,
   },
   {
     name: 'Serengeti',
     region: 'Wild Horizon',
     description: 'Private plains, extraordinary migrations, and personalized safari living.',
-    image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=1200&q=80',
+    image: imgSerengeti,
   },
   {
     name: 'Ngorongoro',
     region: 'Crater Majesty',
     description: 'Exclusive crater rim lodges with unrivalled wildlife views and cultural encounters.',
-    image: 'https://images.unsplash.com/photo-1549880338-65ddcdfd017b?auto=format&fit=crop&w=1200&q=80',
+    image: imgNgorongoro,
   },
   {
     name: 'Tarangire',
     region: 'Ancient Baobabs',
     description: 'Private game drives among iconic elephants and gold-lit landscapes.',
-    image: 'https://images.unsplash.com/photo-1533688600048-74f1e37f81c6?auto=format&fit=crop&w=1200&q=80',
+    image: imgTarangire,
   },
   {
     name: 'Nyerere National Park',
     region: 'River Wilderness',
     description: 'Luxury river camp retreats with dramatic wildlife riverfront views.',
-    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80',
+    image: imgNyerere,
   },
   {
     name: 'Mnemba Island',
     region: 'Private Reef',
     description: 'Secluded villas with snorkeling, private dining, and barefoot island luxury.',
-    image: 'https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef?auto=format&fit=crop&w=1200&q=80',
+    image: imgMnemba,
   },
 ];
 

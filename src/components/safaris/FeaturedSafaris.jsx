@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import TourCard from '../tours/TourCard.jsx';
+import imgSerengeti from '../../assets/serengeti.jfif';
+import imgCrater from '../../assets/crater.jpeg';
+import imgTarangire from '../../assets/tarangire.jpg';
 
 const safaris = [
   {
@@ -8,21 +11,21 @@ const safaris = [
     duration: '3-4 days',
     price: 'Contact for price',
     summary: 'Witness the Great Migration and vast plains of the Serengeti.',
-    image: 'https://images.unsplash.com/photo-1614531341773-3bff8b7cb3fc?auto=format&fit=crop&w=1200&q=80',
+    image: imgSerengeti,
   },
   {
     title: 'Ngorongoro Crater',
     duration: '1-2 days',
     price: 'Contact for price',
     summary: 'Explore the world\'s largest inactive volcanic caldera teeming with wildlife.',
-    image: 'https://images.unsplash.com/photo-1547471080-7cb2ac012b1a?auto=format&fit=crop&w=1200&q=80',
+    image: imgCrater,
   },
   {
     title: 'Tarangire National Park',
     duration: '1-2 days',
     price: 'Contact for price',
     summary: 'Known for its huge elephant herds and ancient baobab trees.',
-    image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1200&q=80',
+    image: imgTarangire,
   },
 ];
 
