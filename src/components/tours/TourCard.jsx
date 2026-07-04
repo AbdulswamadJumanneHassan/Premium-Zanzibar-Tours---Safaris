@@ -26,14 +26,14 @@ export default function TourCard({ tour }) {
             <h3 className="text-xl font-semibold text-charcoal">{tour.title}</h3>
             <p className="text-sm text-slate-500">{tour.duration}</p>
           </div>
-          {tour.price === 'Contact for price' ? (
+          {tour.price === 'Book Now' ? (
             <a 
               href="https://wa.me/255773457365" 
               target="_blank" 
               rel="noopener noreferrer"
               className="rounded-3xl bg-slate-100 px-4 py-3 text-sm font-semibold text-ocean hover:bg-slate-200 transition-colors"
             >
-              Contact for price
+              Book Now
             </a>
           ) : (
             <div className="rounded-3xl bg-slate-100 px-4 py-3 text-sm font-semibold text-ocean">
