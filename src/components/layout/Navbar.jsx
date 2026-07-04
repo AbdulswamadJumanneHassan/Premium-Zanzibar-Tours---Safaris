@@ -54,14 +54,7 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Link
-            to="/contact"
-            className={`hidden rounded-full border border-white/30 px-5 py-2 text-sm font-semibold uppercase tracking-[0.2em] transition ${
-              isScrolled ? 'bg-ocean text-white border-ocean' : 'bg-white/10 text-white hover:bg-white/20'
-            } md:inline-flex`}
-          >
-            Tailor Your Trip
-          </Link>
+
 
           <button
             className="inline-flex items-center justify-center rounded-full border border-white/30 bg-white/10 p-3 text-white transition hover:bg-white/20 md:hidden"
@@ -102,13 +95,7 @@ export default function Navbar() {
                 </a>
               )
             ))}
-            <Link
-              to="/contact"
-              onClick={() => setOpen(false)}
-              className="rounded-full bg-ocean px-5 py-3 text-center text-sm font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-ocean/90"
-            >
-              Tailor Your Trip
-            </Link>
+
           </div>
         </motion.div>
       )}
