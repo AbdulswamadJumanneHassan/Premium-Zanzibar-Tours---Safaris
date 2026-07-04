@@ -26,6 +26,8 @@ const Youtube = ({ size = 20, className = "" }) => (
   </svg>
 );
 
+import Logo from '../../assets/logo.png';
+
 const links = [
   'Destinations',
   'Tours',
@@ -42,13 +44,14 @@ export default function Footer() {
         
         {/* Left Section */}
         <div className="max-w-xl space-y-5">
-          <div className="space-y-2">
-            <p className="text-xs uppercase tracking-[0.3em] text-gold">
-              Premium Zanzibar
-            </p>
-
-            <h2 className="text-3xl font-serif font-semibold">
-              Luxury journeys curated with intention.
+          <div className="space-y-4">
+            <img 
+              src={Logo} 
+              alt="Premium Zanzibar Tours & Safaris logo" 
+              className="h-24 w-auto rounded-3xl border border-slate-200 bg-slate-50 p-3 object-contain"
+            />
+            <h2 className="text-xl font-serif font-semibold text-charcoal">
+              Premium Zanzibar Tours & Safaris
             </h2>
           </div>
 
