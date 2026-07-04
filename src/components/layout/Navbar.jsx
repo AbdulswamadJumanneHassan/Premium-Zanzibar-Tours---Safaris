@@ -4,7 +4,7 @@ import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
 
-const navItems = ['Home', 'Destinations', 'Tours', 'Safaris', 'Hotels', 'Beaches', 'Gallery', 'About', 'Contact'];
+const navItems = ['Home', 'Tours', 'Safaris', 'Hotels', 'Beaches', 'About', 'Contact'];
 
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
