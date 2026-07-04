@@ -11,6 +11,7 @@ import Tours from './pages/Tours.jsx';
 import Safaris from './pages/Safaris.jsx';
 import Hotels from './pages/Hotels.jsx';
 import Beaches from './pages/Beaches.jsx';
+import About from './pages/About.jsx';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/safaris" element={<Safaris />} />
           <Route path="/hotels" element={<Hotels />} />
           <Route path="/beaches" element={<Beaches />} />
+          <Route path="/about" element={<About />} />
         </Routes>
 
         <Footer />
