@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Logo from '../../assets/logo.png';
 
 const navItems = ['Home', 'Tours', 'Safaris', 'Hotels', 'Beaches', 'About', 'Contact'];
@@ -9,6 +9,12 @@ const navItems = ['Home', 'Tours', 'Safaris', 'Hotels', 'Beaches', 'About', 'Con
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const location = useLocation();
+
+  // Automatically close mobile menu when location changes
+  useEffect(() => {
+    setOpen(false);
+  }, [location.pathname]);
 
   useEffect(() => {
     const handler = () => setIsScrolled(window.scrollY > 24);
@@ -26,9 +32,15 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7, ease: 'easeOut' }}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 sm:px-8">
-        <a href="/#home" className="flex items-center gap-4 text-white transition hover:opacity-90">
-          <img src={Logo} alt="Premium Zanzibar Tours & Safaris logo" className="h-20 w-auto rounded-3xl border border-white/20 bg-white/5 p-3 object-contain sm:h-24" />
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2 sm:px-8">
+        <a href="/#home" className="flex items-center gap-4 transition hover:opacity-90">
+          <img 
+            src={Logo} 
+            alt="Premium Zanzibar Tours & Safaris logo" 
+            className={`h-14 w-auto rounded-3xl border p-2 object-contain sm:h-16 transition-colors duration-500 ${
+              isScrolled ? 'border-charcoal/10 bg-charcoal/5' : 'border-white/20 bg-white/5'
+            }`} 
+          />
         </a>
 
         <nav className="hidden items-center gap-10 md:flex">
