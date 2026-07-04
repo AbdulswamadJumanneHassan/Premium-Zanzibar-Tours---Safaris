@@ -5,7 +5,6 @@ import FeaturedSafaris from '../components/safaris/FeaturedSafaris.jsx';
 import Destinations from '../components/destinations/Destinations.jsx';
 import Testimonials from '../components/testimonials/Testimonials.jsx';
 import Gallery from '../components/gallery/Gallery.jsx';
-import Newsletter from '../components/newsletter/Newsletter.jsx';
 
 export default function Home() {
   return (
@@ -26,7 +25,6 @@ export default function Home() {
         <Destinations />
         <Testimonials />
         <Gallery />
-        <Newsletter />
       </section>
     </main>
   );
