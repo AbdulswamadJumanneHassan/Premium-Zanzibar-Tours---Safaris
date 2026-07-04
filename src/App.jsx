@@ -8,6 +8,8 @@ import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
 import Tours from './pages/Tours.jsx';
 import Safaris from './pages/Safaris.jsx';
+import Hotels from './pages/Hotels.jsx';
+import Beaches from './pages/Beaches.jsx';
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/tours" element={<Tours />} />
           <Route path="/safaris" element={<Safaris />} />
+          <Route path="/hotels" element={<Hotels />} />
+          <Route path="/beaches" element={<Beaches />} />
         </Routes>
 
         <Footer />
