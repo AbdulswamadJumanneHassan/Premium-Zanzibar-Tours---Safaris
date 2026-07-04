@@ -12,7 +12,7 @@ export default function BackHomeButton() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
-          className="absolute left-1/2 top-28 z-30 -translate-x-1/2"
+          className="absolute inset-x-0 top-24 z-30 flex justify-center"
         >
           <Link
             to="/"
