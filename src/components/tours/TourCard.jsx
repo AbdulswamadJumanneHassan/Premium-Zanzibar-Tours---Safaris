@@ -21,30 +21,29 @@ export default function TourCard({ tour }) {
       </div>
 
       <div className="space-y-4 p-6">
-        <div className="flex items-center justify-between gap-4">
-          <div>
-            <h3 className="text-xl font-semibold text-charcoal">{tour.title}</h3>
-            <p className="text-sm text-slate-500">{tour.duration}</p>
-          </div>
+        <div>
+          <h3 className="text-xl font-semibold text-charcoal">{tour.title}</h3>
+          <p className="text-sm text-slate-500 mt-1">{tour.duration}</p>
+        </div>
+
+        <p className="text-sm leading-7 text-slate-600">{tour.summary}</p>
+
+        <div className="mt-4 pt-2 border-t border-slate-100 flex justify-between items-center">
           {tour.price === 'Book Now' ? (
             <a 
               href="https://wa.me/255773457365" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="rounded-3xl bg-slate-100 px-4 py-3 text-sm font-semibold text-ocean hover:bg-slate-200 transition-colors"
+              className="rounded-full bg-ocean px-5 py-2.5 text-sm font-semibold tracking-wide text-white shadow-sm transition-all hover:bg-ocean/90 hover:shadow-md"
             >
               Book Now
             </a>
           ) : (
-            <div className="rounded-3xl bg-slate-100 px-4 py-3 text-sm font-semibold text-ocean">
+            <div className="rounded-full bg-slate-100 px-5 py-2.5 text-sm font-semibold text-ocean">
               {tour.price}
             </div>
           )}
         </div>
-
-        <p className="text-sm leading-7 text-slate-600">{tour.summary}</p>
-
-
       </div>
     </motion.article>
   );
