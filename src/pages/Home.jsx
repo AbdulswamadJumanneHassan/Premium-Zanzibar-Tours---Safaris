@@ -2,7 +2,6 @@ import { AnimatePresence, motion } from 'framer-motion';
 import Hero from '../components/hero/Hero.jsx';
 import FeaturedTours from '../components/tours/FeaturedTours.jsx';
 import FeaturedSafaris from '../components/safaris/FeaturedSafaris.jsx';
-import WhyChooseUs from '../components/about/WhyChooseUs.jsx';
 import Destinations from '../components/destinations/Destinations.jsx';
 import Testimonials from '../components/testimonials/Testimonials.jsx';
 import Gallery from '../components/gallery/Gallery.jsx';
@@ -24,7 +23,6 @@ export default function Home() {
       <section className="relative z-10 -mt-24 sm:-mt-28">
         <FeaturedTours />
         <FeaturedSafaris />
-        <WhyChooseUs />
         <Destinations />
         <Testimonials />
         <Gallery />
