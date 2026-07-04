@@ -4,6 +4,7 @@ import Footer from './components/layout/Footer.jsx';
 import ScrollToTop from './components/layout/ScrollToTop.jsx';
 import ScrollUpButton from './components/layout/ScrollUpButton.jsx';
 import WhatsAppButton from './components/layout/WhatsAppButton.jsx';
+import BackHomeButton from './components/layout/BackHomeButton.jsx';
 import Home from './pages/Home.jsx';
 import Contact from './pages/Contact.jsx';
 import Tours from './pages/Tours.jsx';
@@ -17,6 +18,7 @@ function App() {
       <ScrollToTop />
       <ScrollUpButton />
       <WhatsAppButton />
+      <BackHomeButton />
       <div className="min-h-screen bg-white text-charcoal">
         <Navbar />
         
