@@ -78,17 +78,25 @@ const allSafaris = [
 
 export default function Safaris() {
   return (
-    <main className="overflow-hidden pt-24">
-      <section className="mx-auto max-w-7xl px-6 pb-20 pt-12 sm:px-8">
-        <div className="flex flex-col gap-4 text-center">
-          <p className="text-xs uppercase tracking-[0.3em] text-gold">Discover Tanzania</p>
-          <h1 className="text-4xl font-serif font-semibold tracking-tight text-charcoal sm:text-5xl">
+    <main className="overflow-hidden">
+      {/* Hero Section */}
+      <section className="relative flex h-[50vh] min-h-[400px] w-full items-center justify-center pt-20">
+        <div className="absolute inset-0 z-0">
+          <img src={imgSerengeti} alt="Tanzania Safaris" className="h-full w-full object-cover" />
+          <div className="absolute inset-0 bg-charcoal/50" />
+        </div>
+        <div className="relative z-10 flex flex-col gap-4 px-6 text-center">
+          <p className="text-xs uppercase tracking-[0.3em] text-gold drop-shadow-md">Discover Tanzania</p>
+          <h1 className="font-serif text-4xl font-semibold tracking-tight text-white drop-shadow-md sm:text-5xl">
             Our Safari Packages
           </h1>
-          <p className="mx-auto max-w-2xl text-sm leading-7 text-slate-600">
+          <p className="mx-auto max-w-2xl text-sm leading-7 text-white/90 drop-shadow-md">
             Embark on a journey into the wild. From the endless plains of the Serengeti to the majestic peak of Kilimanjaro, explore our curated safari packages.
           </p>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 py-20 sm:px-8">
 
         <motion.div
           className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3"
