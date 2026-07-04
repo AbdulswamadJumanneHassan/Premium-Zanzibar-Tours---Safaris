@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
-import BookingWidget from './BookingWidget.jsx';
 import heroBg from '../../assets/hero.png';
 
 export default function Hero() {
@@ -43,15 +42,6 @@ export default function Hero() {
               Plan My Journey
             </a>
           </div>
-        </motion.div>
-
-        <motion.div
-          className="mt-14 w-full max-w-lg lg:mt-0"
-          initial={{ opacity: 0, x: 40 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.9, delay: 0.15, ease: 'easeOut' }}
-        >
-          <BookingWidget />
         </motion.div>
       </div>
     </section>
