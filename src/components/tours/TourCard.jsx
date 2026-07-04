@@ -44,19 +44,7 @@ export default function TourCard({ tour }) {
 
         <p className="text-sm leading-7 text-slate-600">{tour.summary}</p>
 
-        <div className="flex items-center justify-between gap-4">
-          <span className="inline-flex items-center gap-2 rounded-full bg-slate-100 px-3 py-2 text-xs uppercase tracking-[0.24em] text-slate-500">
-            <Star size={14} className="text-gold" />
-            Exclusive
-          </span>
-          <a
-            href="#tours"
-            className="inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.24em] text-ocean transition hover:text-ocean/80"
-          >
-            View Details
-            <ArrowRight size={16} />
-          </a>
-        </div>
+
       </div>
     </motion.article>
   );
