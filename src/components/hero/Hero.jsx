@@ -21,7 +21,7 @@ export default function Hero() {
             Curated luxury travel experiences
           </span>
           <h1 className="text-5xl font-serif font-semibold leading-tight tracking-tight md:text-6xl lg:text-7xl">
-            Extraordinary African journeys, crafted exclusively for you.
+            Extraordinary journeys through Zanzibar and Tanzania, crafted exclusively for you.
           </h1>
           <p className="max-w-xl text-base leading-8 text-slate-100/90 sm:text-lg">
             Explore secluded islands, private wildlife safaris, and timeless cultural stories with an elevated concierge service that honors your highest expectations.
