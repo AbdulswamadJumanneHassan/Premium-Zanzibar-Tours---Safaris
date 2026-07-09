@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
-import heroBg from '../../assets/hero.png';
+import heroBg from '../../assets/spice tour.jpeg';
 
 export default function Hero() {
   return (
