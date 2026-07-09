@@ -4,25 +4,25 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const reviews = [
   {
-    name: 'Amelia King',
+    name: '',
     country: 'United Kingdom',
     rating: 5,
     text: 'Every detail was flawless. From our private safari to the island escape, the team anticipated our every wish.',
-    image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80',
+    image: '',
   },
   {
-    name: 'Noah Chen',
+    name: '',
     country: 'United States',
     rating: 5,
     text: 'An extraordinary honeymoon crafted with elegance, privacy, and unforgettable moments at every turn.',
-    image: 'https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=400&q=80',
+    image: '',
   },
   {
-    name: 'Sophia Martinez',
+    name: '',
     country: 'Spain',
     rating: 5,
     text: 'The impeccable service and bespoke experiences made this trip the most luxurious journey we have ever taken.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
+    image: '',
   },
 ];
 
