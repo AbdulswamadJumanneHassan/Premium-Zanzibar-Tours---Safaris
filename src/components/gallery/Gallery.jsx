@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import imgG1 from '../../assets/safari blue.jpg';
-import imgG2 from '../../assets/nakupenda.jpg';
+import imgG2 from '../../assets/cultural.jpeg';
 import imgG3 from '../../assets/mnemba.jpg';
-import imgG4 from '../../assets/serengeti.jfif';
+import imgG4 from '../../assets/spice tour.jpeg';
 import imgG5 from '../../assets/stone town.jpg';
 import imgG6 from '../../assets/sunset cruise.jpg';
 
