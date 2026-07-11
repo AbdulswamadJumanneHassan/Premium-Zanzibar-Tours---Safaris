@@ -5,21 +5,21 @@ import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 const reviews = [
   {
     name: '',
-    country: 'United Kingdom',
+    country: '',
     rating: 5,
     text: 'Every detail was flawless. From our private safari to the island escape, the team anticipated our every wish.',
     image: '',
   },
   {
     name: '',
-    country: 'United States',
+    country: '',
     rating: 5,
     text: 'An extraordinary honeymoon crafted with elegance, privacy, and unforgettable moments at every turn.',
     image: '',
   },
   {
     name: '',
-    country: 'Spain',
+    country: '',
     rating: 5,
     text: 'The impeccable service and bespoke experiences made this trip the most luxurious journey we have ever taken.',
     image: '',
